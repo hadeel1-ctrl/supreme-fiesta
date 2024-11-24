@@ -240,14 +240,6 @@ const animationTimeline = () => {
         },
         "party"
     )
-    .to(
-    ".wink span",
-    1, {
-        rotation: 90, // Add rotation for the span element (the `; )`)
-        ease: Expo.easeOut,
-    },
-    "party"
-);
     .staggerTo(
         ".eight svg",
         1.5, {
