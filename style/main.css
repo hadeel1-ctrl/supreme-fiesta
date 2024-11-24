@@ -219,6 +219,9 @@ body {
   font-size: 2rem;
   font-weight: lighter;
 }
+#replay {
+    display: none;  /* Hide it initially */
+}
 
 #replay {
   cursor: pointer;
